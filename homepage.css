@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #4fbff3, #bee5ea);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.cta-button {
+    background-color: white;
+    color: #23bcf9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('images/essay-final-lon103085.webp') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 500px;
+}
+
+
+.hero-section h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.hero-section p {
+    font-size: 18px;
+}
+
+.hero-section .hero-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-section .hero-buttons a:hover {
+    background-color: white;
+    color: #4071c4;
+}
+
+/* About Section */
+.about-section {
+    background: linear-gradient(135deg, #2095de, #b3dafc); /* Two blue shades */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto 30px;
+    max-width: 800px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+    color: #fefefe;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.about-section ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.about-section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.about-section a {
+    background-color: #5cd5f6;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.about-section a:hover {
+    background-color: #61daf5;
+}
+
+.services {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.service {
+    width: 30%;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+}
+
+.service h3 {
+    margin: 15px 0;
+}
+
+footer {
+    background: #6293f4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
